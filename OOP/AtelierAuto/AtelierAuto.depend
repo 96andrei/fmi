@@ -1,0 +1,316 @@
+# depslib dependency file v1.0
+1464182927 source:d:\programming\facultate\oop\atelierauto\src\autoshop.cpp
+	"AutoShop.h"
+	"Component.h"
+	"Vehicle.h"
+	"Problem.h"
+	<iostream>
+	<vector>
+	<typeinfo>
+	"Car.h"
+	"Motorbike.h"
+	"Bike.h"
+
+1463928241 d:\programming\facultate\oop\atelierauto\include\autoshop.h
+	<queue>
+
+1463930401 source:d:\programming\facultate\oop\atelierauto\src\component.cpp
+	"Component.h"
+	<iostream>
+	"Problem.h"
+
+1463925923 d:\programming\facultate\oop\atelierauto\include\component.h
+	<string>
+	<vector>
+
+1463929536 source:d:\programming\facultate\oop\atelierauto\src\car.cpp
+	"Car.h"
+	"Problem.h"
+	"Brakes.h"
+	"Engine.h"
+	"Direction.h"
+	"Exhaust.h"
+	"Body.h"
+	"Component.h"
+	<iostream>
+
+1464179789 d:\programming\facultate\oop\atelierauto\include\car.h
+	"Vehicle.h"
+
+1463930430 d:\programming\facultate\oop\atelierauto\include\vehicle.h
+	<vector>
+
+1463930315 source:d:\programming\facultate\oop\atelierauto\src\problem.cpp
+	"Problem.h"
+	<iostream>
+	"Screw.h"
+
+1464180246 d:\programming\facultate\oop\atelierauto\include\problem.h
+	<vector>
+	"Vehicle.h"
+	"Motorbike.h"
+
+1463930818 source:d:\programming\facultate\oop\atelierauto\src\vehicle.cpp
+	"Vehicle.h"
+	"Problem.h"
+	"Component.h"
+	<vector>
+
+1464182899 source:d:\programming\facultate\oop\atelierauto\main.cpp
+	<iostream>
+	"AutoShop.h"
+	"Car.h"
+	"Bike.h"
+	"Motorbike.h"
+	<vector>
+	"Component.h"
+	"Problem.h"
+
+1463926142 source:d:\programming\facultate\oop\atelierauto\src\bike.cpp
+	"Bike.h"
+	"Component.h"
+	<iostream>
+	<vector>
+	"Brakes.h"
+	"Direction.h"
+	"Exhaust.h"
+
+1458418371 d:\programming\facultate\oop\atelierauto\include\bike.h
+	<Vehicle.h>
+
+1464180380 source:d:\programming\facultate\oop\atelierauto\src\motorbike.cpp
+	"Motorbike.h"
+	"Brakes.h"
+	"Engine.h"
+	"Direction.h"
+	"Exhaust.h"
+	<iostream>
+	<vector>
+	"Problem.h"
+
+1464179817 d:\programming\facultate\oop\atelierauto\include\motorbike.h
+	<Vehicle.h>
+
+1463846555 source:d:\programming\facultate\oop\atelierauto\src\usedchain.cpp
+	"UsedChain.h"
+	<iostream>
+
+1463846628 d:\programming\facultate\oop\atelierauto\include\usedchain.h
+	<Problem.h>
+
+1458417487 source:d:\programming\facultate\oop\atelierauto\src\useddiscs.cpp
+	"UsedDiscs.h"
+	<iostream>
+
+1458402794 d:\programming\facultate\oop\atelierauto\include\useddiscs.h
+	<Problem.h>
+
+1463846377 source:d:\programming\facultate\oop\atelierauto\src\usedpads.cpp
+	"UsedPads.h"
+	<iostream>
+
+1463846636 d:\programming\facultate\oop\atelierauto\include\usedpads.h
+	<Problem.h>
+
+1463926126 source:d:\programming\facultate\oop\atelierauto\src\brakes.cpp
+	"Brakes.h"
+	<iostream>
+	"Problem.h"
+	"UsedPads.h"
+	"UsedDiscs.h"
+	"UsedChain.h"
+	"MissingChain.h"
+	"DeadBrake.h"
+	"Car.h"
+	"Motorbike.h"
+
+1463926124 d:\programming\facultate\oop\atelierauto\include\brakes.h
+	"Component.h"
+
+1458417458 source:d:\programming\facultate\oop\atelierauto\src\deadbrake.cpp
+	"DeadBrake.h"
+	<iostream>
+
+1458403550 d:\programming\facultate\oop\atelierauto\include\deadbrake.h
+	<Problem.h>
+
+1463846525 source:d:\programming\facultate\oop\atelierauto\src\missingchain.cpp
+	"MissingChain.h"
+	<iostream>
+
+1463846621 d:\programming\facultate\oop\atelierauto\include\missingchain.h
+	<Problem.h>
+
+1458397815 source:d:\programming\facultate\oop\atelierauto\src\brakes\brakes.cpp
+	"Brakes.h"
+	<iostream>
+	"Problem.h"
+	"UsedPads.h"
+	"UsedDiscs.h"
+	"UsedChain.h"
+	"MissingChain.h"
+	"DeadBrake.h"
+
+1458396530 source:d:\programming\facultate\oop\atelierauto\src\brakes\deadbrake.cpp
+	"DeadBrake.h"
+	<iostream>
+
+1458396538 source:d:\programming\facultate\oop\atelierauto\src\brakes\missingchain.cpp
+	"MissingChain.h"
+	<iostream>
+
+1458397462 source:d:\programming\facultate\oop\atelierauto\src\brakes\usedchain.cpp
+	"UsedChain.h"
+	<iostream>
+
+1458395669 source:d:\programming\facultate\oop\atelierauto\src\brakes\useddiscs.cpp
+	"UsedDiscs.h"
+	<iostream>
+
+1458395689 source:d:\programming\facultate\oop\atelierauto\src\brakes\usedpads.cpp
+	"UsedPads.h"
+	<iostream>
+
+1463927587 source:d:\programming\facultate\oop\atelierauto\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	"LowOil.h"
+	"MoltenEngine.h"
+	"DirtyCarb.h"
+	"Car.h"
+	"Motorbike.h"
+
+1463926212 d:\programming\facultate\oop\atelierauto\include\engine.h
+	<Component.h>
+
+1463847418 source:d:\programming\facultate\oop\atelierauto\src\lowoil.cpp
+	"LowOil.h"
+	<iostream>
+	"Oil.h"
+
+1458402831 d:\programming\facultate\oop\atelierauto\include\lowoil.h
+	<Problem.h>
+
+1458417463 source:d:\programming\facultate\oop\atelierauto\src\dirtycarb.cpp
+	"DirtyCarb.h"
+	<iostream>
+
+1458403005 d:\programming\facultate\oop\atelierauto\include\dirtycarb.h
+	<Problem.h>
+
+1463847426 source:d:\programming\facultate\oop\atelierauto\src\moltenengine.cpp
+	"MoltenEngine.h"
+	<iostream>
+	"Oil.h"
+
+1458403783 d:\programming\facultate\oop\atelierauto\include\moltenengine.h
+	<Problem.h>
+
+1458417447 source:d:\programming\facultate\oop\atelierauto\src\brokenhandlebar.cpp
+	"BrokenHandlebar.h"
+	<iostream>
+
+1458412214 d:\programming\facultate\oop\atelierauto\include\brokenhandlebar.h
+	<Problem.h>
+
+1463927579 source:d:\programming\facultate\oop\atelierauto\src\direction.cpp
+	"Direction.h"
+	<iostream>
+	"BrokenHandlebar.h"
+	"BrokenWheel.h"
+	"DeadDirection.h"
+	"Bike.h"
+	"Motorbike.h"
+	"Vehicle.h"
+
+1463926159 d:\programming\facultate\oop\atelierauto\include\direction.h
+	<Component.h>
+
+1458417442 source:d:\programming\facultate\oop\atelierauto\src\brokenwheel.cpp
+	"BrokenWheel.h"
+	<iostream>
+
+1458412716 d:\programming\facultate\oop\atelierauto\include\brokenwheel.h
+	<Problem.h>
+
+1458417460 source:d:\programming\facultate\oop\atelierauto\src\deaddirection.cpp
+	"DeadDirection.h"
+	<iostream>
+
+1458413233 d:\programming\facultate\oop\atelierauto\include\deaddirection.h
+	<Problem.h>
+
+1463927593 source:d:\programming\facultate\oop\atelierauto\src\exhaust.cpp
+	"Exhaust.h"
+	<iostream>
+	"BurningOil.h"
+	"OldVehicle.h"
+	"Car.h"
+	"Motorbike.h"
+
+1463926228 d:\programming\facultate\oop\atelierauto\include\exhaust.h
+	<Component.h>
+
+1463847407 source:d:\programming\facultate\oop\atelierauto\src\burningoil.cpp
+	"BurningOil.h"
+	<iostream>
+	"Oil.h"
+
+1458413676 d:\programming\facultate\oop\atelierauto\include\burningoil.h
+	<Problem.h>
+
+1458417478 source:d:\programming\facultate\oop\atelierauto\src\oldvehicle.cpp
+	"OldVehicle.h"
+	<iostream>
+
+1458413879 d:\programming\facultate\oop\atelierauto\include\oldvehicle.h
+	<Problem.h>
+
+1463926036 source:d:\programming\facultate\oop\atelierauto\src\body.cpp
+	"Body.h"
+	<iostream>
+	"BrokenBody.h"
+	"RustedBody.h"
+	"Car.h"
+
+1463925971 d:\programming\facultate\oop\atelierauto\include\body.h
+	<Component.h>
+
+1458417482 source:d:\programming\facultate\oop\atelierauto\src\rustedbody.cpp
+	"RustedBody.h"
+	<iostream>
+
+1458414664 d:\programming\facultate\oop\atelierauto\include\rustedbody.h
+	<Problem.h>
+
+1463846595 source:d:\programming\facultate\oop\atelierauto\src\brokenbody.cpp
+	"BrokenBody.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<Material.h>
+
+1458415214 d:\programming\facultate\oop\atelierauto\include\brokenbody.h
+	<Problem.h>
+
+1463846923 source:d:\programming\facultate\oop\atelierauto\src\material.cpp
+	"Material.h"
+
+1463846910 d:\programming\facultate\oop\atelierauto\include\material.h
+	<string>
+
+1463846952 source:d:\programming\facultate\oop\atelierauto\src\screw.cpp
+	"Screw.h"
+	<iostream>
+
+1463846140 d:\programming\facultate\oop\atelierauto\include\screw.h
+	<Material.h>
+
+1463847258 source:d:\programming\facultate\oop\atelierauto\src\oil.cpp
+	"Oil.h"
+	<string.h>
+
+1463847178 d:\programming\facultate\oop\atelierauto\include\oil.h
+	<Material.h>
+

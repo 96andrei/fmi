@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AtelierAuto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AtelierAuto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../AtelierAuto" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="src" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AtelierAuto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../AtelierAuto" />
+		</Compiler>
+		<Linker>
+			<Add directory="D:/Programming/Facultate/OOP/AtelierAuto/" />
+		</Linker>
+		<Unit filename="include/AutoShop.h" />
+		<Unit filename="include/Bike.h" />
+		<Unit filename="include/Body.h" />
+		<Unit filename="include/Brakes.h" />
+		<Unit filename="include/BrokenBody.h" />
+		<Unit filename="include/BrokenHandlebar.h" />
+		<Unit filename="include/BrokenWheel.h" />
+		<Unit filename="include/BurningOil.h" />
+		<Unit filename="include/Car.h" />
+		<Unit filename="include/Component.h" />
+		<Unit filename="include/DeadBrake.h" />
+		<Unit filename="include/DeadDirection.h" />
+		<Unit filename="include/Direction.h" />
+		<Unit filename="include/DirtyCarb.h" />
+		<Unit filename="include/Engine.h" />
+		<Unit filename="include/Exhaust.h" />
+		<Unit filename="include/LowOil.h" />
+		<Unit filename="include/Material.h" />
+		<Unit filename="include/MissingChain.h" />
+		<Unit filename="include/MoltenEngine.h" />
+		<Unit filename="include/Motorbike.h" />
+		<Unit filename="include/Oil.h" />
+		<Unit filename="include/OldVehicle.h" />
+		<Unit filename="include/Problem.h" />
+		<Unit filename="include/RustedBody.h" />
+		<Unit filename="include/Screw.h" />
+		<Unit filename="include/UsedChain.h" />
+		<Unit filename="include/UsedDiscs.h" />
+		<Unit filename="include/UsedPads.h" />
+		<Unit filename="include/Vehicle.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AutoShop.cpp" />
+		<Unit filename="src/Bike.cpp" />
+		<Unit filename="src/Body.cpp" />
+		<Unit filename="src/Brakes.cpp" />
+		<Unit filename="src/BrokenBody.cpp" />
+		<Unit filename="src/BrokenHandlebar.cpp" />
+		<Unit filename="src/BrokenWheel.cpp" />
+		<Unit filename="src/BurningOil.cpp" />
+		<Unit filename="src/Car.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/DeadBrake.cpp" />
+		<Unit filename="src/DeadDirection.cpp" />
+		<Unit filename="src/Direction.cpp" />
+		<Unit filename="src/DirtyCarb.cpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/Exhaust.cpp" />
+		<Unit filename="src/LowOil.cpp" />
+		<Unit filename="src/Material.cpp" />
+		<Unit filename="src/MissingChain.cpp" />
+		<Unit filename="src/MoltenEngine.cpp" />
+		<Unit filename="src/Motorbike.cpp" />
+		<Unit filename="src/Oil.cpp" />
+		<Unit filename="src/OldVehicle.cpp" />
+		<Unit filename="src/Problem.cpp" />
+		<Unit filename="src/RustedBody.cpp" />
+		<Unit filename="src/Screw.cpp" />
+		<Unit filename="src/UsedChain.cpp" />
+		<Unit filename="src/UsedDiscs.cpp" />
+		<Unit filename="src/UsedPads.cpp" />
+		<Unit filename="src/Vehicle.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
