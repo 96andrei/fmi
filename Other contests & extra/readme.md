@@ -1,0 +1,1 @@
+# Multiple solutions for http://infoarena.ro/ (IA), http://codeforces.com/ (CF, CForces) and other problems.

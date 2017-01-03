@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463841138 source:d:\programming\facultate\grafuri\ford fulkerson\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+	<queue>
+

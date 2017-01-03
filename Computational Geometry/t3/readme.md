@@ -1,0 +1,1 @@
+#Given 2 segments in a 2D plane, tell if they intersect. If yes, tell the point of intersection.
